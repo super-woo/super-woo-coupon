@@ -127,7 +127,7 @@ class Wac_Coupon
 			'hierarchical'          => false,
 			'public'                => false,
 			'show_ui'               => true,
-			'show_in_menu'          => false,
+			'show_in_menu'          => "superwoo-addons",
 			'menu_position'         => 50,
 			'menu_icon'             => 'dashicons-nametag',
 			'show_in_admin_bar'     => true,

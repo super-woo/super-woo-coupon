@@ -16,9 +16,9 @@ class Wac_Setting
 
     public function wac_menu_items()
     {
-        add_submenu_page('superwoo-addons', 'SuperWoo Addons', 'Addons', 'manage_options', 'superwoo-addons');
-        $post_type_link = 'edit.php?post_type=woocoupon';
-        add_submenu_page('superwoo-addons', 'WooCoupons', 'Coupons', 'manage_options', $post_type_link);
+        // add_submenu_page('superwoo-addons', 'SuperWoo Addons', 'Addons', 'manage_options', 'superwoo-addons');
+        // $post_type_link = 'edit.php?post_type=woocoupon';
+        // add_submenu_page('superwoo-addons', 'WooCoupons', 'Coupons', 'manage_options', $post_type_link);
         add_submenu_page('superwoo-addons', 'WooCoupon settings', 'Settings', "manage_options", 'woocoupon_settings', [$this, 'woocoupon_settings_content']);
     }
 
