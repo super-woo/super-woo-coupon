@@ -287,7 +287,7 @@ class Wac_front
         $cart->applied_coupons = $store_keys;
         $cart->coupon_discount_totals = $store_coupons;
         $this->discount_amount = $discount_amount;
-        // add_filter('woocommerce_cart_subtotal', [$this, "wac_cart_subtotal"], 10, 3);
+        add_filter('woocommerce_cart_subtotal', [$this, "wac_cart_subtotal"], 10, 3);
     }
 
     /**
