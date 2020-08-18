@@ -1,0 +1,22 @@
+{
+    "name": "wp-adroit/woo-advance-coupon",
+    "description": "WooCommerce Missing Coupon Features",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "Wp Adroit",
+            "email": "contact@wpadroit.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "WpAdroit\\Wac_Coupon\\": "includes/"
+        },
+        "files": [
+            "includes/functions.php"
+        ]
+    }
+}
